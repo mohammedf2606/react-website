@@ -5,11 +5,11 @@ class Header extends Component {
     return (
       <header>
         <div className="logo">
-
+          LOGO
         </div>
         <nav>
           <ul>
-            <li>
+            <li className = "first">
               <a href = '#'>Home</a>
             </li>
             <li>
@@ -18,7 +18,7 @@ class Header extends Component {
             <li>
               <a href = '#'>Employment</a>
             </li>
-            <li>
+            <li className = "last">
               <a href = '#'>Projects</a>
             </li>
           </ul>
